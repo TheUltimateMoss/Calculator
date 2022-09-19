@@ -36,12 +36,13 @@ int area(void)
 		scanf("%f", &num3);
 		multiply();
 		answer = answer * num3;
+		printf("volume:  %f \n", answer);
 	}
 	else
 	{
 		multiply();
+		printf("area:  %f \n", answer);
 	}
-	printf("area:  %f \n", answer);
 }
 
 int speed(void)
