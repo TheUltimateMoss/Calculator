@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <string.h>
-#include "globals.h"
+#include "variables.h"
 
 
 int main()
